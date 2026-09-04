@@ -716,6 +716,7 @@ export const enUS = {
     saved: "Model service saved.",
     failed: "The AI model operation failed.",
     encryptionKeyMissing: "Encrypted AI credentials require instance authentication. Configure authentication first; an independent credential key is optional for advanced deployments.",
+    privacyNotice: "Please use trusted model providers or API proxies to protect your personal privacy.",
   },
   aiPrompts: {
     title: "Prompt library",
@@ -918,7 +919,7 @@ export const enUS = {
       custom: "Custom image",
       unknown: "Unknown",
     },
-    deployment: "Deployment",
+    deployment: "Deployment source",
     deploymentTriggers: {
       github_release: "GitHub Release trigger",
       main_push: "main push trigger",
@@ -1223,6 +1224,8 @@ export const enUS = {
   },
   memoCard: {
     yesterday: "Yesterday",
+    createdAt: "Created {{time}}",
+    updatedAt: "Updated {{time}}",
     emptyMemo: "Empty note",
     select: "Select {{title}}",
     unselect: "Deselect {{title}}",
@@ -1423,6 +1426,7 @@ export const enUS = {
     enableReadingProtection: "Enable reading protection",
     disableReadingProtection: "Disable reading protection and edit",
     updatedAt: "Updated {{time}}",
+    timestamps: "Created {{createdTime}} · Updated {{updatedTime}}",
     done: "Done",
     uploadAttachment: "Upload attachment",
     collapseFormat: "Collapse formatting",

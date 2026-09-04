@@ -716,6 +716,7 @@ export const zhCN = {
     saved: "模型服务已保存。",
     failed: "AI 模型操作失败。",
     encryptionKeyMissing: "加密保存 AI 凭据需要先启用实例认证；标准部署无需增加环境变量，高级部署可选用独立凭据密钥。",
+    privacyNotice: "请务必选用可信赖的模型服务商或 API 代理节点，避免个人隐私泄露。",
   },
   aiPrompts: {
     title: "指令库",
@@ -918,7 +919,7 @@ export const zhCN = {
       custom: "自定义镜像",
       unknown: "未知",
     },
-    deployment: "自动部署方式",
+    deployment: "部署来源",
     deploymentTriggers: {
       github_release: "正式 Release 触发",
       main_push: "main 推送触发",
@@ -1223,6 +1224,8 @@ export const zhCN = {
   },
   memoCard: {
     yesterday: "昨天",
+    createdAt: "创建 {{time}}",
+    updatedAt: "更新 {{time}}",
     emptyMemo: "空笔记",
     select: "选择 {{title}}",
     unselect: "取消选择 {{title}}",
@@ -1423,6 +1426,7 @@ export const zhCN = {
     enableReadingProtection: "开启阅读保护",
     disableReadingProtection: "关闭阅读保护并进入编辑",
     updatedAt: "更新于 {{time}}",
+    timestamps: "创建于 {{createdTime}} · 更新于 {{updatedTime}}",
     done: "完成",
     uploadAttachment: "上传附件",
     collapseFormat: "收起格式",
